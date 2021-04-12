@@ -1,0 +1,25 @@
+.list {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.link {
+  display: block;
+  border: 1px solid purple;
+  padding: 15px;
+  width: 100%;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.link:hover {
+  background: purple;
+  color: #fff;
+  width: 100%;
+}
