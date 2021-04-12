@@ -73,9 +73,9 @@ module.exports = async (page, url) => {
         console.log('Достигло лимита');
         break;
       }
-    }
 
-    saveToJsonAndCsv(fileName, currentUserList);
+      saveToJsonAndCsv(fileName, currentUserList);
+    }
 
     if (MATCHES_LIMIT && Object.keys(currentUserList).length >= MATCHES_LIMIT)
       break;
